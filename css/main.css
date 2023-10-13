@@ -1,0 +1,48 @@
+:root {
+  --color-mustard: #b08f0f;
+  --color-chocolate: #1d1a19;
+  --color-brown: #624f40;
+  --color-white: #ffffff;
+  --color-red: #990000;
+  --color-green: #006600;
+}
+html,
+body {
+  height: 100%;
+}
+body {
+  font-size: 100%; /* Default is `16px` in most browsers */
+  font-family: "Roboto", Helvetica, Arial, Verdana, sans-serif;
+  line-height: 1.5;
+  color: var(--color-white);
+  background: var(--color-brown) url(../images/pattern.gif) repeat 0 0;
+  display: flex;
+}
+.container {
+  max-width: 450px;
+  margin: auto;
+  box-shadow: 2px 2px 5px 2px rgb(0% 0% 0% / 10%);
+}
+header,
+main {
+  padding: 24px;
+}
+header {
+  border-radius: 16px 16px 0 0;
+  color: var(--color-white);
+  background-color: var(--color-chocolate);
+}
+main {
+  border-radius: 0 0 16px 16px;
+  color: var(--color-chocolate);
+  background-color: var(--color-mustard);
+}
+
+/* @mixin roboto-normal {
+  font-weight: 400;
+  font-style: normal;
+}
+@mixin roboto-bold {
+  font-weight: 700;
+  font-style: normal;
+} */
