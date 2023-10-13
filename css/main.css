@@ -20,8 +20,8 @@ body {
   display: flex;
   padding: 24px;
 }
-.container {
-  max-width: 600px;
+.card {
+  max-width: 650px;
   margin: auto;
   box-shadow: 2px 2px 5px 2px rgb(0% 0% 0% / 10%);
 }
