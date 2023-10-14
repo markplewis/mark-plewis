@@ -51,7 +51,7 @@ img {
 }
 h1, h2, h3 {
   margin: 0;
-  font-weight: 400; /* 700 */
+  font-weight: 400; /* 700? */
   font-style: normal;
   line-height: 1.2;
 }
@@ -77,11 +77,22 @@ P:first-child {
 p:last-child {
   margin-bottom: 0;
 }
-.github-link {
+.links {
+  display: flex;
+  justify-content: flex-end;
+  gap: 16px;
+}
+.linkedin {
   width: 80px;
-  margin-left: auto;
   display: block;
 }
-.github-link img {
-  aspect-ratio: 2.44 / 1;
+.linkedin img {
+  aspect-ratio: 4.1 / 1;
+}
+.github {
+  width: 70px;
+  display: block;
+}
+.github img {
+  aspect-ratio: 3.59 / 1;
 }
